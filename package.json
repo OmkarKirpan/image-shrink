@@ -1,0 +1,31 @@
+{
+  "name": "image-shrink",
+  "version": "1.0.0",
+  "description": "App to optimize images",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmkarKirpan/image-shrink.git"
+  },
+  "keywords": [
+    "electron",
+    "image",
+    "shrink",
+    "javascript",
+    "omkar",
+    "kirpan",
+    "omkarkirpan"
+  ],
+  "author": "Omkar Kirpan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OmkarKirpan/image-shrink/issues"
+  },
+  "homepage": "https://github.com/OmkarKirpan/image-shrink#readme",
+  "devDependencies": {
+    "electron": "^12.0.1"
+  }
+}
