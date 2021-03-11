@@ -7,7 +7,7 @@ function createMainWindow() {
     height: 600,
   });
 
-  mainWindow.loadURL(`https://theunpaiddev.tumblr.com`);
+  mainWindow.loadURL(`file://${__dirname}/app/index.html`);
 }
 
 app.on("ready", createMainWindow);
