@@ -20,7 +20,11 @@ function createMainWindow() {
   mainWindow.loadFile(`./app/index.html`);
 }
 
-app.on("ready", createMainWindow);
+app.on("ready", () => {
+  createMainWindow();
+  // Garbage Collection of mainWindow
+  mainWindow.on("closed", () => (mainWindow = null));
+});
 
 app.on("window-all-closed", () => {
   if (!isMac) {
